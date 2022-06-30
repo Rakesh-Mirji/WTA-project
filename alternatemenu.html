@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500&display=swap" rel="stylesheet">
+    <title>menu</title>
+    <style media="screen">
+    *{
+      overflow-x: hidden;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    .logo{
+      width:19%;
+      height:20%;
+      background-image: url("E:/web/images/food.jpeg");
+      background-size:contain;
+      background-repeat: no-repeat;
+      position:absolute;
+      top:-4% ; left:-30px;
+      overflow: hidden;
+
+    }
+    .home{
+      height: 100px;
+      opacity: 0;
+      font-size: 60px;
+    }
+    .contain{
+      width:100vw;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      background-image: linear-gradient(to right bottom, white,white,#818181);
+    }
+      .box{
+        height:350px;
+        width:350px;
+        margin:100px 50px;
+        border-radius: 100%;
+      }
+      .blue{
+        background:url("E:/web/street food/chaats.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .orange{
+        background:url("E:/web/street food/veg.png");
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .lblue{
+        background:url("E:/web/street food/drink.png");
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+      }
+      .red{
+        background:url("E:/web/street food/des.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .purple{
+        background:url("E:/web/street food/pizza.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .yellow{
+        background:url("E:/web/street food/non.png");
+        background-size: 95%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .yellow:hover{
+        background-color: gold;
+        transition:all 1s;
+        border:none;
+      }
+      .red:hover{
+        background-color: red;
+        transition:all 1s;
+        border:none;
+      }
+      .orange:hover{
+        background-color: #FD7F20;
+        transition:all 1s;
+        border:none;
+      }
+      .blue:hover{
+          background-color: blue;
+          transition:all 1s;
+          border:none;
+      }
+      .purple:hover{
+        background-color: purple;
+        transition:all 1s;
+        border:none;
+      }
+      .lblue:hover{
+        background-color: #2FF3E0;
+        transition:all 1s;
+        border:none;
+      }
+      a{
+        height: 60px;
+        width:500px;
+        color: black;
+        font-size:45px;
+        cursor: pointer;
+        position: absolute;
+        text-decoration:none;
+      }
+      .a{
+        top:74%; left:8%;
+      }
+       .b{
+        top:74%; left:45%;
+      }
+      .c{
+        top:74%; left:77%;
+      }
+      .d{
+        top:146%; left:10%;
+      }
+      .e{
+        top:146%; left:44%;
+      }
+      .f{
+        top:146%; left:72%;
+      }
+      .box:hover> a{
+        transition: all .5s;
+        text-shadow: 20px -8px 9px grey;
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="height:100px;">
+      <div class="logo"><a class="home" href="E:/web/test1/testFood.html">foodie</a></div>
+    </nav>
+    <div class="contain">
+      <div class="orange box"><a class="a " href="#">VEGETARIAN</a></div>
+      <div class="blue box"><a class="b" href="#">CHAATS</a></div>
+      <div class="lblue box"><a class="c" href="#">BEVERAGES</a></div>
+      <div class="red box"><a class="d" href="#">DESSERTS</a></div>
+      <div class="purple box"><a class="e" href="#">FAST-FOOD</a></div>
+      <div class="yellow box"><a class="f" href="#">NON-VEGETARIAN</a></div>
+    </div>
+
+  </body>
+</html>
